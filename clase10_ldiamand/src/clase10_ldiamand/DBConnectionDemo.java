@@ -20,7 +20,9 @@ public class DBConnectionDemo {
 		try {
 			Class.forName(prop.getProperty("db.class"));
 			String url = prop.getProperty("db.url");
-			Connection con = DriverManager.getConnection(url);
+			String user = "app";
+			String pass = "app";
+			Connection con = DriverManager.getConnection(url, user, pass);
 		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}

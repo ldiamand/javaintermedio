@@ -8,7 +8,6 @@ public class App {
 		Login l1 = new Login();
 		l1.setName("claudio");
 		l1.setPass("secreto");
-//		l1.setFecha(new Date());
 		System.out.println(l1.getId());
 		
 		LoginDao dao = new LoginDao();

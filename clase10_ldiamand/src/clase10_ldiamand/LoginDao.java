@@ -51,7 +51,7 @@ public class LoginDao {
 	}
 
 	public Set<Login> findAll() {
-		// TODO Auto-generated method stub
+		// TODO completar!
 		return null;
 	}
 }
